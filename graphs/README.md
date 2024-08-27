@@ -126,7 +126,7 @@ The number of incident edges to it
 
 ### Dense Graph
 
-|E|  e  o( |V|^2 )
+|E|  e  o( |V|<sup>2</sup> )
 
 ### Sparse Graph
 
