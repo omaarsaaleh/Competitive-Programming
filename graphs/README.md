@@ -140,7 +140,7 @@ Symmetric for undirected graph
 
 - In some applications it pays off to store only the diagonal and and above data to reduce space into the half.
 
-Space : o( |v$| ^ 2$ )
+Space : o( |v|<sup>2</sup> )
 
 ```cpp
 vector<vector<int>> adj(N, vector<int>(N,0));
