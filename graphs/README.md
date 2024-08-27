@@ -1,4 +1,4 @@
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/7d7dadc7-2231-4b12-927b-d5ddcb7ff900/Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/b3f3243e-ca42-4f8d-a532-6347ed8c47e5)
 
 ### Graph
 
@@ -8,25 +8,33 @@ Graph is simply a set of vertices and a collection of edges that each connect a 
 
 Edges that connect the same pair of vertices
 
+![Untitled 1](https://github.com/user-attachments/assets/4b7c59bb-7079-4e75-ad00-683c22bf6796)
+
 ### Loop
 
 An edge that connects a vertex to itself.
+
+![Untitled 2](https://github.com/user-attachments/assets/04641b93-b4d4-4ad1-a85d-1ace8da48b28)
 
 ### Weighted Graph
 
 A graph in which a number (the weight) is assigned to each edge.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/84eaed0f-5182-4c84-9a3d-bf45a02f181b/Untitled.png)
+![Untitled 3](https://github.com/user-attachments/assets/475097f1-683c-4c3e-a91a-e78a49a241a2)
 
 ### Simple Graph
 
 An unweighted, undirected graph without parallel edges and loops
 
+![Untitled 4](https://github.com/user-attachments/assets/43690ce8-1270-4fd6-8a82-4c7efa4e1de0)
+
+
 ### Multigraph
 
 A graph with Parallel Edges.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/6e1f4c7e-0348-485b-ae1b-ef233988c7f7/Untitled.png)
+![Untitled 5](https://github.com/user-attachments/assets/0940e181-587a-45a7-bfd6-87983df878b5)
+
 
 ### Complete Graph
 
@@ -36,52 +44,56 @@ edges = $( nodes * ( nodes - 1 ) ) /  2$
 
 $\displaystyle\sum_{x=1}^{n-1} x$
  
+![Untitled 6](https://github.com/user-attachments/assets/07318d4c-c261-43cf-9d61-5cae375103c5)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/0eccd4d3-09b3-4c3a-903b-7b54310d12b6/Untitled.png)
+![Untitled 7](https://github.com/user-attachments/assets/139d8246-3161-4960-afea-d93edc7b7ffb)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/4f51b56d-c77a-4fe7-b609-02587dac8a53/Untitled.png)
 
 ### Bipartite Graphs:
 
 A Graph whose vertices can be partitioned into **two** sets such that there is no two adjacent vertices within the same set (no edges conntect them).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/9b2fc6eb-7ab7-4b58-9208-72d1cf3f826b/image.png)
+![image](https://github.com/user-attachments/assets/a04450a9-eb82-4f5d-88dd-678c0514ca1c)
+
 
 ### (Strongly if directed) Connected Graph
 
 A graph is connected if there is a path from any node to any other node.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/6a88f998-0819-4d80-8ee4-e0a0db9ea169/Untitled.png)
+![Untitled 8](https://github.com/user-attachments/assets/f0d967e6-7381-4524-b675-49248fe672d9)
+
 
 ### Disconnected Graph
 
 A graph with at least a node that is not reachable from other nodes.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/1b7d472f-0c0c-445d-a5ca-a72b193a067e/image.png)
+![image 1](https://github.com/user-attachments/assets/67711f64-f89c-43e5-948e-cd40fea76420)
 
 ### Path
 
 A sequence of vertices connected by edges, Length of a path: Number of edges in the path.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/5c88a2d7-2e1c-4f15-ab6b-2aeb1f0d9214/Untitled.png)
+![Untitled 9](https://github.com/user-attachments/assets/c58f39a1-02e4-4c16-8579-40736a99656b)
+
 
 ### Simple Path
 
 A path in which each vertex appear no more than one time except for the **cycle**.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/f0395855-14b1-4fc6-9409-d914d61a572c/Untitled.png)
+![Untitled 10](https://github.com/user-attachments/assets/a5f68b10-e62f-4041-a65d-ac3b0d3ba8c6)
+
 
 ### Cycle
 
 A simple path with at least one edge whose first and last vertices are the same where n0 is the only node appearing more than once and no edges appears more than once in the path sequence. (a loop is not a cycle)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/8b409e31-9383-4b07-a3b2-97aeb6b686a0/Untitled.png)
+![Untitled 11](https://github.com/user-attachments/assets/2bfe5559-88ca-4c24-aa2f-88894e11d1a2)
 
 ### Cyclic Graph
 
 A graph containing at least one cycle. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/6ec1f8c4-b231-46ab-844c-77dc65aa63c0/Untitled.png)
+![Untitled 12](https://github.com/user-attachments/assets/7a96e1d6-aabe-4319-8434-38e70f7b861b)
 
 Detecting cycles in a graph is important. For example, a graph that
 represents valid course prerequisites should not have any cycles.
@@ -90,13 +102,14 @@ represents valid course prerequisites should not have any cycles.
 
 When there is an edge connecting two vertices
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/b0305876-56d5-42df-be65-f909134a421c/Untitled.png)
+![Untitled 13](https://github.com/user-attachments/assets/2cfd48a5-af69-428f-9598-7e7926b6bb2d)
+
 
 ### Adjacent edges
 
 Edges that share a common vertex. (figure 2 not 1)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/72ca57c1-4225-4541-8742-b830576113ab/Untitled.png)
+![Untitled 14](https://github.com/user-attachments/assets/6347344a-b102-429d-987b-96137d701a96)
 
 ### Incident Edge
 
@@ -104,7 +117,8 @@ When an edge connect some vertex with another one (in and out for directed)
 
 (edge e is said to be incident with vertex u and v)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/9f9cb535-09ad-4f52-9c93-60b12f2506c7/Untitled.png)
+![Untitled 15](https://github.com/user-attachments/assets/13665db5-571e-4f5d-9651-a2333f2e7f01)
+
 
 ### Degree of a vertex
 
@@ -153,7 +167,8 @@ for (int i = 0; i < edges; ++i) {
 }
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/f52f3522-e5a6-43e3-bae4-ee7549b231ea/Untitled.png)
+![Untitled 16](https://github.com/user-attachments/assets/13d0ab43-e658-4c0f-92a3-272ff68c9ca6)
+
 
 - For Sparse Graph, List is better in terms of space.
 - Sum of lengths of Adjacency List, Directed |E|, Undirected 2|E| as if (u,v) is an edge then v is stored in u and vice versa.
@@ -164,6 +179,6 @@ A connected acyclic undirected graph. It has n − 1 edges
 where n is the number of vertices. Which means that there’s
 exactly one path between each pair of nodes.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2ce07042-83f8-4a3e-b7d3-d942404ea4c4/703dfc87-ddd0-4aae-b436-31a31f9ea183/image.png)
+![image 2](https://github.com/user-attachments/assets/378b94bc-a6d8-4073-b3a2-7606ad52baec)
 
-Reference : https://www.cs.mtsu.edu/~xyang/3080/graph2.html
+Reference : ‣Reference : https://www.cs.mtsu.edu/~xyang/3080/graph2.html
