@@ -126,7 +126,7 @@ The number of incident edges to it
 
 ### Dense Graph
 
-|E|  e  o( |V$| ^ 2$ )
+|E|  e  o( |V|^2 )
 
 ### Sparse Graph
 
@@ -181,4 +181,4 @@ exactly one path between each pair of nodes.
 
 ![image 2](https://github.com/user-attachments/assets/378b94bc-a6d8-4073-b3a2-7606ad52baec)
 
-Reference : ‣Reference : https://www.cs.mtsu.edu/~xyang/3080/graph2.html
+Reference : https://www.cs.mtsu.edu/~xyang/3080/graph2.html
