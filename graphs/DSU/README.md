@@ -80,7 +80,7 @@ It’s always better to attach the smaller tree (the tree with the lower rank) u
 ### Union by Size
 
 ```cpp
-void union(int u, int v){
+void Union(int u, int v){
 	int par1 = Find(u), par2 = Find(v);	
 	if(par1 == par2) return;
 
@@ -90,7 +90,7 @@ void union(int u, int v){
 
 	sz[par2] += sz[par1];
 	sz[par1] = 0;
-	par[par1] = par2;
+	parent[par1] = par2;
 }
 ```
 
@@ -100,7 +100,7 @@ The rank is not the exact height of the tree but is an upper bound of the height
 because the depth will get smaller when calling find() (applying path compression).
 
 ```cpp
-void union(int u, int v) {
+void Union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);	
     if(par1 == par2) return;
         
@@ -131,7 +131,7 @@ void make_set(int v) {
     index[v] = rand();
 }
 
-void union(int u, int v) {
+void Union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);	
     if(par1 == par2) return;
         
@@ -147,13 +147,13 @@ void union(int u, int v) {
 Worse
 
 ```cpp
-void union(int u, int v) {
+void Union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);
     if(par1 == par2) return;
     
     if (rand() % 2)
 	    swap(par1, par2);
-      parent[par1] = par2;
+        parent[par1] = par2;
     
 }
 ```
