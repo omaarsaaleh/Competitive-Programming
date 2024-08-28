@@ -41,12 +41,12 @@ int Find(int x){
 
 ```cpp
 int Find(x){
-	while (parent[x] != x){
+    while (parent[x] != x){
         int parent = parent[x] ;
         parent[x] = parent[ parent[x] ] ;
         x = parent ;
-	}
-	return x ;
+    }
+    return x ;
 }
 ```
 
@@ -56,11 +56,11 @@ int Find(x){
 
 ```cpp
 int Find(x){
-	while (parent[x] != x){
+    while (parent[x] != x){
         parent[x] = parent[ parent[x] ] ;
         x = parent[x] ;
-	}
-	return x ;
+    }
+    return x ;
 }
 ```
 
@@ -102,7 +102,7 @@ because the depth will get smaller when calling find() (applying path compressio
 ```cpp
 void union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);	
-		if(par1 == par2) return;
+    if(par1 == par2) return;
         
     if (rank[par1] > rank[par2])
         swap(par1, par2);
@@ -133,7 +133,7 @@ void make_set(int v) {
 
 void union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);	
-		if(par1 == par2) return;
+    if(par1 == par2) return;
         
     if (index[par1] > index[par2])
         swap(par1, par2);
@@ -148,8 +148,8 @@ Worse
 
 ```cpp
 void union(int u, int v) {
-    int par1 = Find(u), par2 = Find(v);	
-		if(par1 == par2) return;
+    int par1 = Find(u), par2 = Find(v);
+    if(par1 == par2) return;
     
     if (rand() % 2)
 	    swap(par1, par2);
