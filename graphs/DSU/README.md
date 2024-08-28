@@ -65,6 +65,7 @@ int Find(x){
 ```
 
 ![works similarly but replaces only every other parent pointer (skips one node)](https://github.com/user-attachments/assets/1c2cf257-75ad-4dda-9090-ca9bde14bea2)
+
 works similarly but replaces only every other parent pointer (skips one node)
 
 ## Union
