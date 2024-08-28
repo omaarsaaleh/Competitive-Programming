@@ -147,7 +147,7 @@ void union(int u, int v) {
 Worse
 
 ```cpp
-void union_sets(int a, int b) {
+void union(int u, int v) {
     int par1 = Find(u), par2 = Find(v);	
 		if(par1 == par2) return;
     
