@@ -16,8 +16,8 @@ Let’s assume that this is the MST and it does not contain the minimum weight e
 
 ![image](https://github.com/user-attachments/assets/563b5479-6f99-4c80-a60f-2e02f8816dc7)
 
-So from our assumption weight(edge 5-6) < weight(any other edge)
-However that’s contradiction because that’s mean that we could simply replace edge 5-6 with edge 2-3 for example and get a ST with lower cost.
+So from our assumption weight(edge 5-6) < weight(any other edge)  
+However that’s contradiction because that’s mean that we could simply replace edge 2-3 with edge 5-6 for example and get a MST with a lower cost.
 
  
 
