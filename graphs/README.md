@@ -1,3 +1,5 @@
+# Graphs
+
 ![Untitled](https://github.com/user-attachments/assets/b3f3243e-ca42-4f8d-a532-6347ed8c47e5)
 
 ### Graph
